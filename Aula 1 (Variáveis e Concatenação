@@ -1,0 +1,29 @@
+void main() {
+  
+  // Tipos básicos de variáveis
+  
+  // int > Para numeros inteiros
+  int codigo = 5;
+  
+  // double ? Para números fracionados
+  double preco = 9.50;
+  
+  // String > Para textos
+  String nome = 'X Salada';
+  
+  // bool > Para falso oi verdadeiro
+  bool paraFalsoOuVerdadeiro = true;
+  
+  
+  print (codigo);
+  print (preco);
+  print (nome);
+  print (paraFalsoOuVerdadeiro);
+  
+  
+  //Concatenação das variáveis
+  // to.String > transforma números em strings
+  print ('O produto de Código ' + codigo.toString() + ' é ' + nome + ' e o valor do produto é ' + preco.toString() );
+  
+  
+}
