@@ -1,0 +1,30 @@
+  // Trocando if e else por switch
+  //case > caso
+  
+String
+  tela = 'Contato';
+  
+  switch (tela) {
+    case 'Home':
+      print ('Página Principal');
+      break;
+      
+      case 'splashScreen':
+      print ('Splash Screen');
+      break;
+      
+    default:
+        print('Tela');
+        break;
+  }
+  
+  
+  
+  /*
+  if 
+    ( tela == 'Home') {
+  print ('Página Inicial');
+    }
+  else
+    print ('Tela');
+    */
