@@ -1,0 +1,12 @@
+void main() {
+  
+  //?> significa (se) if - : > significa (caso contrário)  else
+  
+bool 
+  condicao = false;
+  print ( condicao ? 'Condição verdadeira' : 'Condição falsa');
+  
+String
+    nome = 'Sérgio';
+  print (nome == 'Sérgio');
+}
