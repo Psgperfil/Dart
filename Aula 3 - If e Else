@@ -1,0 +1,76 @@
+void main() {
+  
+  // Funções matemáticas
+  
+  int numero;
+    numero = 10;
+  
+  numero++;
+  numero++;
+  print (numero);
+  
+ 
+    
+  int numero1 = 22;
+  int numero2 = 20;
+  
+  // if e else, com if dentro do else
+  
+   print ('Número 1 = $numero1, Número 2 = $numero2');
+  
+    if (numero1 == numero2) {
+  print ('Número 1 é igual a numero 2?');
+  }
+  
+    else 
+      if (numero1 > numero2) {
+  print ('Número 1 é maior que o numero 2?');
+  }
+  
+    else {
+  print ('Número 1 é menor que o numero 2?');
+  }
+  
+  
+  /*
+  int numero1 = 2;
+  int numero2 = 20;
+  
+  // if e else
+  
+   print ('Número 1 = $numero1, Número 2 = $numero2');
+  
+    if (numero1 == numero2) {
+  print ('Número 1 é igual a numero 2?');
+  }
+  
+    else {
+  print ('Número 1 é diferente a numero 2?');
+  }
+*/
+  
+  /* 
+  // Comparação de valores
+  //if
+  
+  print ('Número 1 = $numero1, Número 2 = $numero2');
+  
+  if (numero1 == numero2) {
+  print ('Número 1 é igual a numero 2?');
+  }
+  if (numero1 > numero2) {
+  print ('Número 1 é maior que o numero 2');
+  }
+  if (numero1 < numero2) {
+  print ('Número 1 é menor que o numero 2');
+ }
+  
+   if (numero1 <= numero2) {
+  print ('Número 1 é menor ou igual ao numero 2');
+ }
+  
+   if (numero1 >= numero2) {
+  print ('Número 1 é maior ou igual oo numero 2');
+ }*/
+  
+}
