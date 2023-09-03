@@ -1,0 +1,59 @@
+void main() {
+
+  bool condicao = true;
+  int i = 1;
+  
+   do {
+    print ( i );
+      i++;
+     
+     if (i > 5){
+       condicao = false;
+     }
+     
+     } while (condicao);
+  
+  
+  
+  
+  
+  
+  
+  
+/*  
+// while
+// se a condição, faça ...
+  
+  bool condicao = true;
+  
+  int i = 1;
+
+  while ( condicao ) {
+    print ( i );
+      i++;
+    if (i > 10) {
+      condicao = false;
+    }
+     ;
+  }
+
+*/
+
+
+
+
+/*{
+  
+//looping FOR
+  
+  for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 3; j++){
+  print ('($i,$j)' );
+      }
+    }
+  
+  */
+  
+  
+}
+  
