@@ -1,0 +1,28 @@
+// Orientação a objeto
+
+void main() {
+  Pessoa pessoa1 = Pessoa('Paulo', 56, '92123456789');
+  pessoa1.apresenta();
+  
+  Pessoa pessoa2 = Pessoa('João', 86, '92123456354');
+  pessoa2.apresenta();
+}
+
+
+//Objeto começa sempre com letra maiúscula
+
+class Pessoa {
+  //Propriedades da classe - variáveis
+
+ 
+  String nome = '';
+  int idade = 0;
+  String telefone = '';
+
+
+  Pessoa(this.nome, this.idade, this.telefone);
+
+  void apresenta() {
+    print('meu nome é ${this.nome}, tenho $idade e meu telefone é $telefone ');
+  }
+}
