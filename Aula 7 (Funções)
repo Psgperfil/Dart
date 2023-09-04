@@ -1,0 +1,21 @@
+
+// void = Função
+
+void main() {
+  
+  printNomeIdade ('Paulo', 56);
+
+  minhaFuncao (' Paulo', telefone: ' 92-98122-4750');
+
+ 
+}
+
+//Toda função vem após o MAIN
+
+void printNomeIdade ( String nome, int idade) {
+  print ('Nome..........: ' + nome);
+  print ('Idade..........: ' + idade.toString());
+  
+}
+
+void minhaFuncao (String nome, {String telefone = ''}) => print ('Nome: $nome, Telefone $telefone');
